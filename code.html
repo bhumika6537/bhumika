@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Food Menu</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for custom font styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .font-dancing-script {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .menu-item-price {
+            border-left: 2px solid #ca8a04;
+            /* yellow-500 */
+            border-right: 2px solid #ca8a04;
+            /* yellow-500 */
+            background-color: #4a4a4a;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 flex items-center justify-center min-h-screen p-4">
+
+    <!-- Main Menu Container -->
+    <div class="bg-[#212121] text-white rounded-lg shadow-2xl w-full max-w-2xl p-6 md:p-10">
+
+        <!-- Header -->
+        <header class="text-center mb-8">
+            <h1 class="font-dancing-script text-5xl text-amber-500 mb-2">Restaurant</h1>
+            <h2 class="text-4xl font-bold tracking-widest">FOOD MENU <span class="text-amber-400">😊</span></h2>
+        </header>
+
+        <!-- Menu Sections -->
+        <main class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+
+            <!-- Western Dishes Section -->
+            <section>
+                <h3 class="text-3xl font-semibold mb-6 text-amber-200">Western Dishes</h3>
+                <div class="space-y-4">
+                    <!-- Menu Item -->
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg">Chicago Deep-Dish Pizza</span>
+                        <div class="flex items-center space-x-2">
+                            <span class="menu-item-price text-yellow-400 font-bold px-2 py-1 rounded-md">₹10</span>
+                        </div>
+                    </div>
+                    <!-- Menu Item -->
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg">Double beef hamburger</span>
+                        <div class="flex items-center space-x-2">
+                            <span class="menu-item-price text-yellow-400 font-bold px-2 py-1 rounded-md">₹80</span>
+                        </div>
+                    </div>
+                    <!-- Menu Item -->
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg">Barbecue Ribs</span>
+                        <div class="flex items-center space-x-2">
+                            <span class="menu-item-price text-yellow-400 font-bold px-2 py-1 rounded-md">₹10</span>
+                        </div>
+                    </div>
+                    <!-- Menu Item -->
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg">Buffalo Wings</span>
+                        <div class="flex items-center space-x-2">
+                            <span class="menu-item-price text-yellow-400 font-bold px-2 py-1 rounded-md">₹10</span>
+                        </div>
+                    </div>
+                    <!-- Menu Item -->
+                    <div class="flex justify-between items-center">
+                        <span class="text-lg">Meatloaf</span>
+                        <div class="flex items-center space-x-2">
+                            <span class="menu-ite…
